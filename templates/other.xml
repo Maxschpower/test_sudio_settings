@@ -1,0 +1,11 @@
+<templateSet group="other">
+  <template name="stf" value="fun $FUNC_NAME$($ARGUMENTS$): $SCREEN_CLASS$ {&#10;$FUNC_BODY$&#10;return this&#10;}" description="Screen test function that returns screen" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SCREEN_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNC_BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+</templateSet>
